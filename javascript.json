@@ -57,7 +57,7 @@
 	"Modal redux-form": {
 		"prefix": "modalwhr",
 		"body": [
-			"let ${1:component} = ({ handleSubmit, onHide, onSubmit, show, submitting }: { handleSubmit: boolean, onHide: Function, onSubmit: Function, show: boolean, submitting: boolean }) => {",
+			"let ${1:component} = ({ handleSubmit, onHide, show, submitting }: { handleSubmit: Function, onHide: Function, show: boolean, submitting: boolean }) => {",
 			"\treturn (",
 			"\t\t<Modal show={show} onHide={onHide}>",
 			"\t\t\t<form onSubmit={handleSubmit(onSubmit)}>",
