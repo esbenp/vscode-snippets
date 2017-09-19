@@ -60,7 +60,7 @@
 			"let ${1:component} = ({ handleSubmit, onHide, show, submitting }: { handleSubmit: Function, onHide: Function, show: boolean, submitting: boolean }) => {",
 			"\treturn (",
 			"\t\t<Modal show={show} onHide={onHide}>",
-			"\t\t\t<form onSubmit={handleSubmit(onSubmit)}>",
+			"\t\t\t<form onSubmit={handleSubmit}>",
 			"\t\t\t\t<Modal.Header closeButton>",
 			"\t\t\t\t\t<Modal.Title>${2:title}</Modal.Title>",
 			"\t\t\t\t</Modal.Header>",
