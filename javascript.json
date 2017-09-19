@@ -71,7 +71,7 @@
 			"\t\t\t\t\t<button type=\"button\" className=\"btn btn-white\" onClick={onHide}>",
 			"\t\t\t\t\t\tCancel",
 			"\t\t\t\t\t</button>",
-			"\t\t\t\t\t<SaveButton onClick={onSubmit} submitting={submitting}>${3:save-label}</SaveButton>",
+			"\t\t\t\t\t<SaveButton submitting={submitting}>${3:save-label}</SaveButton>",
 			"\t\t\t\t</Modal.Footer>",
 			"\t\t\t</form>",
 			"\t\t</Modal>",
